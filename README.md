@@ -1,11 +1,11 @@
-About r-venneuler
-=================
+About r-venneuler-feedstock
+===========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-venneuler-feedstock/blob/main/LICENSE.txt)
 
 Home: http://www.rforge.net/venneuler/, http://www.cs.uic.edu/~wilkinson/
 
 Package license: MPL-1.1
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-venneuler-feedstock/blob/main/LICENSE.txt)
 
 Summary: Calculates and displays Venn and Euler Diagrams
 
