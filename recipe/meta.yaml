@@ -1,6 +1,5 @@
 {% set version = "1.1-4" %}
 {% set posix = 'm2-' if win else '' %}
-{% set native = 'm2w64-' if win else '' %}
 
 package:
   name: r-venneuler
@@ -13,8 +12,7 @@ source:
   sha256: 6dc1b3cd3c8a754d9a9a1f28570e40a8a1b486855975e36407be9a76e16449bd
 
 build:
-  merge_build_host: true  # [win]
-  number: 0
+  number: 1
   noarch: generic
   rpaths:
     - lib/R/lib/
@@ -38,8 +36,8 @@ test:
 about:
   home: http://www.rforge.net/venneuler/, http://www.cs.uic.edu/~wilkinson/
   license: MPL-1.1
+  license_file: LICENSE
   summary: Calculates and displays Venn and Euler Diagrams
-  license_family: OTHER
 
 extra:
   recipe-maintainers:
